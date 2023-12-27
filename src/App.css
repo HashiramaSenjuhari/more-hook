@@ -1,0 +1,33 @@
+.task-list-container {
+  max-width: 600px;
+  margin: 20px 40vw auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+.hidden {
+  color: transparent;
+}
+
+.scroll-to-input-button {
+  margin-top: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.scroll-to-input-button:hover {
+  background-color: #2980b9;
+}
